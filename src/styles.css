@@ -1,0 +1,23 @@
+*{
+  background-color: rgb(219, 255, 223);
+
+}
+
+.container{
+  height: 30rem;
+  width:30rem;
+  margin: 100px auto;
+  border:2px solid black;
+  display:grid;
+  grid-template-columns: repeat(15,1fr);
+}
+
+.food {
+  background-color: rgb(255, 132, 132);
+  border-radius: 50%;
+
+}
+
+.snake {
+  background-color: rgb(149, 229, 149);
+}
